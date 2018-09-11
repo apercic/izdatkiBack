@@ -1,0 +1,21 @@
+CREATE TABLE izdatek (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+datum VARCHAR(30) NOT NULL,
+grupa VARCHAR(30) NOT NULL,
+vrednost DOUBLE(10,2));
+
+
+CREATE TABLE kategorija (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ime VARCHAR(30) NOT NULL);
+
+
+INSERT INTO kategorija VALUES (1, "položnice");
+INSERT INTO kategorija VALUES (2, "hrana");
+INSERT INTO kategorija VALUES (3, "plača");
+
+INSERT INTO izdatek VALUES (0, "2018-10-10", "hrana", -20);
+INSERT INTO izdatek VALUES (0, "2017-09-02", "položnice", -50);
+INSERT INTO izdatek VALUES (0, "2016-09-02", "položnice", -20);
+INSERT INTO izdatek VALUES (0, "2017-02-07", "plača", 200);
+INSERT INTO izdatek VALUES (0, "2016-02-07", "plača", 150);
