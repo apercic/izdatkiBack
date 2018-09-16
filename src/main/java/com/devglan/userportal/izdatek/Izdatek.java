@@ -1,4 +1,4 @@
-package com.devglan.userportal;
+package com.devglan.userportal.izdatek;
 
 
 import javax.persistence.Entity;

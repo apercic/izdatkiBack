@@ -1,4 +1,4 @@
-package com.devglan.userportal;
+package com.devglan.userportal.izdatek;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

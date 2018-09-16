@@ -1,4 +1,4 @@
-package com.devglan.userportal;
+package com.devglan.userportal.kategorija;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

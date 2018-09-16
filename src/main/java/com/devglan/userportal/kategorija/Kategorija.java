@@ -1,4 +1,4 @@
-package com.devglan.userportal;
+package com.devglan.userportal.kategorija;
 
 
 import com.google.gson.JsonElement;

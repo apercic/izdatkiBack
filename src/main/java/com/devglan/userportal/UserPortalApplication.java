@@ -1,4 +1,7 @@
 package com.devglan.userportal;
+import com.devglan.userportal.izdatek.IzdatekRepository;
+import com.devglan.userportal.kategorija.KategorijaRepository;
+import com.devglan.userportal.user.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,9 +22,9 @@ public class UserPortalApplication {
 
     @Bean
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public CommandLineRunner demo(IzdatekRepository repository1, KategorijaRepository repository2) {
+    public CommandLineRunner demo(IzdatekRepository repository1, KategorijaRepository repository2, UserRepository repository3) {
         return (args) -> {
-            repository1.save(new Izdatek("danes", "meme", 8.1));
+            //repository1.save(new Izdatek("danes", "meme", 8.1));
             //repository2.save(new Kategorija("oblekce"));
 
             /*System.out.println("Customers found with findAll():");
