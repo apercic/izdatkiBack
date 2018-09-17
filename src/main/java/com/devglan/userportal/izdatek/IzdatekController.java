@@ -26,12 +26,12 @@ public class IzdatekController {
     }
 
     @RequestMapping(value="/save", method=POST)
-    public void saveToDB(@RequestBody Izdatek bla) {
-        repository.save(bla);
+    public void saveToDB(@RequestBody Izdatek bb) {
+        repository.save(bb);
     }
 
     @RequestMapping(value="/delete", method=DELETE)
-    public void zbrisiZapis(@RequestBody Izdatek bla) {
-        repository.delete(bla);
+    public void zbrisiZapis(@RequestBody Izdatek bb) {
+        repository.delete(bb);
     }
 }

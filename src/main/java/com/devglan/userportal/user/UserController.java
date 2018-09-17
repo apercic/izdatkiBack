@@ -17,7 +17,7 @@ import java.security.Key;
 import static org.springframework.web.bind.annotation.RequestMethod.*;
 
 
-@CrossOrigin(origins = {"*"}, maxAge = 3600)
+@CrossOrigin(origins = {"http://localhost:4200", "http://localhost:63342"}, maxAge = 3600)
 @RestController
 
 public class UserController {
@@ -40,12 +40,12 @@ public class UserController {
     }
 
     @RequestMapping(value="/saveUser", method=POST)
-    public void saveToDB(@RequestBody User bla) {
-        repository.save(bla);
+    public void saveToDB(@RequestBody User bb) {
+        repository.save(bb);
     }
 
     @RequestMapping(value="/deleteUser", method=DELETE)
-    public void zbrisiZapis(@RequestBody User bla) {
-        repository.delete(bla);
+    public void zbrisiZapis(@RequestBody User bb) {
+        repository.delete(bb);
     }
 }

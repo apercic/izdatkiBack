@@ -27,7 +27,7 @@ public class KategorijaController {
     }
 
     @RequestMapping(value="/saveKategorija", method=POST)
-    public void saveKategorija(@RequestBody Kategorija bla) {
-        repository.save(bla);
+    public void saveKategorija(@RequestBody Kategorija bb) {
+        repository.save(bb);
     }
 }

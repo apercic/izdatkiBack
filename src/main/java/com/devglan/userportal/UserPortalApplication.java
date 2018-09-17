@@ -24,15 +24,7 @@ public class UserPortalApplication {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public CommandLineRunner demo(IzdatekRepository repository1, KategorijaRepository repository2, UserRepository repository3) {
         return (args) -> {
-            //repository1.save(new Izdatek("danes", "meme", 8.1));
-            //repository2.save(new Kategorija("oblekce"));
-
-            /*System.out.println("Customers found with findAll():");
-            System.out.println("-------------------------------");
-            for (Customer customer : repository.findAll()) {
-                System.out.println(customer.toString());
-            }
-            System.out.println(""); */
+            //repository1.save(new Izdatek("danes", "meme", 8.1))
         };
     }
 }
