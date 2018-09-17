@@ -12,7 +12,7 @@ Database: MariaDB
 username: root
 password: root
 
-SQL scripts and instructions are available in [database] folder.
+SQL scripts and instructions are available in [DATABASE](./db) folder.
 
 ## Requirements
 1. Maven
