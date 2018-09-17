@@ -1,5 +1,5 @@
 # Izdatki
-> Simple application for logging your expenses and incomes.
+> Simple application for logging your expenses and incomes. (Frontend: [izdatkiFront](https://github.com/apercic/izdatkiFront))
 
 Database: MariaDB
 username: root
