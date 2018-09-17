@@ -1,10 +1,3 @@
-# izdatkiBack
-
-Backend for application Izdatki.
-Writen with Java Spring framework.
-Database 
-
-
 # Izdatki
 > Simple application for logging your expenses and incomes.
 
@@ -12,7 +5,7 @@ Database: MariaDB
 username: root
 password: root
 
-SQL scripts and instructions are available in [DATABASE](./db) folder.
+SQL scripts and instructions are available in [DATABASE](./DATABASE) folder.
 
 ## Requirements
 1. Maven
